@@ -1,1 +1,2 @@
-print("Makeen")
+print (2/5)
+
