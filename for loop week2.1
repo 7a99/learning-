@@ -1,0 +1,25 @@
+s = "Hello"
+for i in range (len(s)):
+    print(s[i])
+    
+    
+# how to count the selected letter
+counter=0
+x = "a,o,e,u,i"
+m = input("Enter a text: ")
+for charecter in m:
+    if (charecter.lower() in x):
+         counter +=1
+print (counter)
+
+# how to count the numbers inside any text
+counter=0
+x = ("0123456789")
+m = input("Enter a text: ")
+for charecter in m:
+    if (charecter in x):
+        counter +=1
+print (counter)
+
+
+
