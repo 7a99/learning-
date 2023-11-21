@@ -1,0 +1,23 @@
+# ex1
+num =(input("Enter num: "))
+list1=[]
+if num.upper() != "Q":
+    for i in num:
+        list1.append(int(i))   
+
+    print(list1)
+else:
+    print("quite")
+
+print()
+"+++++++++++++++++++++++++++++++"
+
+#ex2: find the num > 100 and it's position
+x = [100,201,99,101]
+for i in x:
+    if i > 100:
+        print (i,"-->",x.index(i))
+        break
+
+ 
+        
